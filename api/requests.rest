@@ -1,0 +1,17 @@
+GET http://localhost:3001/todos
+
+###
+
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text": "Teach my girlfriend how to code"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/63fa6e8daa56bb92c6c1da75
+
+###
+PUT http://localhost:3001/todo/complete/63fa6e22aa56bb92c6c1da70
